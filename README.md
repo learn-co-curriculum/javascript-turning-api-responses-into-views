@@ -21,7 +21,7 @@ and books instead of food. Picturing it?
 
 Okay. So the basic unit of display in a bookstore is a bay of shelves.
 Each bay has a number of shelves that fit a number of books. A certain
-number of books are shelved "facing", that is, turned so that we can
+number of books are shelved "facing," that is, turned so that we can
 see the cover, and the rest are shelved the standard way with the spine
 out.
 
@@ -59,8 +59,8 @@ add this to our `index.html`.
 </body>
 ```
 
-In our link, we firing a `getRepositories` function on click, so let's
-implement that in `index.js`.
+In our link, we're firing a `getRepositories` function when a user clicks the
+"Get Repositories" anchor tag, so let's implement that in `index.js`.
 
 ```js
 function getRepositories() {
@@ -128,7 +128,7 @@ function showRepositories(event, data) {
 }
 ```
 
-Now it's getting a little uglier. And that's with the benefit of doing
+Now it's getting a little uglier. And that's with the benefit of
 interpolation. If we were concatenating all of these strings, even
 worse!
 
